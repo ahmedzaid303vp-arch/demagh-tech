@@ -1,0 +1,86 @@
+:root {
+    --bg-dark: #090d16;
+    --bg-card: rgba(15, 23, 42, 0.75);
+    --accent-green: #00ff87;
+    --accent-cyan: #60efff;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --glow-shadow: 0 8px 32px 0 rgba(0, 255, 135, 0.15);
+    --transition-fast: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    overflow-x: hidden;
+}
+
+.navbar {
+    background: rgba(9, 13, 22, 0.85) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.text-accent {
+    background: linear-gradient(135deg, var(--accent-green), var(--accent-cyan));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+.nav-link {
+    color: var(--text-muted) !important;
+    font-weight: 600;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--accent-green) !important;
+}
+
+.page-header {
+    background: rgba(15, 23, 42, 0.5);
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.btn-whatsapp {
+    background: linear-gradient(135deg, #25d366, #128c7e);
+    color: white !important;
+    font-weight: 700;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.2);
+    transition: var(--transition-fast);
+}
+
+.product-card {
+    background: var(--bg-card) !important;
+    border: 1px solid var(--glass-border) !important;
+    backdrop-filter: blur(10px);
+    border-radius: 16px !important;
+    transition: var(--transition-fast) !important;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(0, 255, 135, 0.4) !important;
+    box-shadow: var(--glow-shadow);
+}
+
+.product-img {
+    height: 220px;
+    object-fit: contain;
+    transition: var(--transition-fast);
+}
+
+.product-card:hover .product-img {
+    transform: scale(1.05);
+}
+
+footer {
+    background: #05080f !important;
+    border-top: 1px solid var(--glass-border);
+    color: var(--text-muted);
+}
