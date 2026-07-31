@@ -5,7 +5,7 @@
     "category": "smartphone",
     "price": 38000.00,
     "description": "مساحة 128 جيجا | رام 4 جيجا | حالة جديد",
-    "image": "img/iphone13.png",
+    "image": "iphone13.png",
     "isNew": true
   },
   {
@@ -14,7 +14,7 @@
     "category": "used",
     "price": 48000.00,
     "description": "مساحة 256 جيجا | رام 4 جيجا | حالة استعمال",
-    "image": "img/iphone15maxused.png",
+    "image": "iphone15maxused.png",
     "isNew": false
   },
   {
@@ -23,7 +23,7 @@
     "category": "accessory",
     "price": 1800.00,
     "description": "Soundcore R50i NC سمّاعات أذن لاسلكيّة إلغاء الضوضاء سماعة بلوتوث مع ميكروفون أبيض",
-    "image": "img/soundcoreR50iNC.png",
+    "image": "soundcoreR50iNC.png",
     "isNew": true
   },
   {
@@ -32,7 +32,7 @@
     "category": "smartphone",
     "price": 47000.00,
     "description": "مساحة 256 جيجا | رام 12 جيجا | حالة جديد",
-    "image": "img/default.png",
+    "image": "default.png",
     "isNew": true
   },
   {
@@ -41,7 +41,7 @@
     "category": "smartphone",
     "price": 56000.00,
     "description": "مساحة 256 جيجا | رام 12 جيجا | حالة جديد",
-    "image": "img/default.png",
+    "image": "default.png",
     "isNew": true
   },
   {
@@ -50,7 +50,7 @@
     "category": "smartphone",
     "price": 36000.00,
     "description": "مساحة 512 جيجا | رام 16 جيجا | حالة جديد",
-    "image": "img/default.png",
+    "image": "default.png",
     "isNew": true
   }
 ]
